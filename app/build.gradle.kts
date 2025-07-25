@@ -49,3 +49,11 @@ dependencies {
    androidTestImplementation(libs.androidx.junit)
    androidTestImplementation(libs.androidx.espresso.core)
 }
+dependencies {
+   implementation("androidx.recyclerview:recyclerview:1.4.0")
+   implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.2")
+   implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
+   implementation("com.squareup.okhttp3:okhttp:4.12.0")
+   implementation("com.squareup.picasso:picasso:2.8")
+   implementation("com.google.code.gson:gson:2.10.1")
+}
