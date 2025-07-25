@@ -8,7 +8,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import ca.georgiancollege.moviesearchapp.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity()
+class  MainActivity : AppCompatActivity()
 {
    private lateinit var binding: ActivityMainBinding
 
