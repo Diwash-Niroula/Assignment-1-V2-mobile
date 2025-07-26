@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">MovieSearchApp</string>
+    <string name="search">Search</string>
+    <string name="enter_movie_name">Enter movie name</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="year">Year</string>
+    <string name="director">Director</string>
+    <string name="plot">Plot</string>
+    <string name="back_to_search">Back to Search</string>
+    <string name="poster">Poster</string>
+    <string name="movietitle">Movie Title</string>
+    <string name="Year">Year</string>
+    <string name="type">Type</string>
 </resources>

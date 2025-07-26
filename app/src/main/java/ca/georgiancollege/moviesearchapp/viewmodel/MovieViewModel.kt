@@ -11,8 +11,8 @@ class MovieViewModel: ViewModel()
 {
    private val repo = MovieRepository()
 
-   private val _movies = MutableLiveData<List<Movie>>()
-   val movie: LiveData<List<Movie>> = _movies
+   internal val _movies = MutableLiveData<List<Movie>>()
+   val movies: LiveData<List<Movie>> get() = _movies
 
    private val _movieDetails = MutableLiveData<MovieDetails>()
    val movieDetails: LiveData<MovieDetails> = _movieDetails
